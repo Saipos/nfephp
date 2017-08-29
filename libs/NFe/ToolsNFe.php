@@ -638,7 +638,7 @@ class ToolsNFe extends BaseTools
             $tpAmb,
             $dhEmi,
             $vNF,
-            $vICMS,
+            ($vICMS == null ? '0' : $vICMS),
             $digVal,
             $token,
             $cDest,

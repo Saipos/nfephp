@@ -1,9 +1,9 @@
 {
-    "name": "nfephp-org/nfephp",
+    "name": "saipos/saipos-nfephp",
     "type": "library",
     "description": "NFePHP é uma API para gerenciamento das comunicações entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construido em PHP para rodar sob qualquer sistema operacional.",
-    "keywords": ["nfe","sped","nfephp"],
-    "homepage": "https://github.com/nfephp-org/nfephp",
+    "keywords": ["nfe","sped","nfephp", "saipos"],
+    "homepage": "https://github.com/Saipos/saipos-nfephp",
     "license": ["GPL-3.0+","LGPL-3.0+"],
     "authors": [
         {
@@ -15,6 +15,12 @@
         {
             "name": "Comunidade NFePHP",
             "homepage": "https://github.com/nfephp-org/nfephp/graphs/contributors"
+        },
+        {
+            "name": "Eric Alves da Rocha",
+            "email": "eric@saipos.com",
+            "homepage": "http://www.saipos.com",
+            "role": "Developer - Co-Funder"
         }
     ],
     "require": {
