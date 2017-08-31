@@ -1,7 +1,5 @@
-# NFePHP
-
 # Versão mantida pela equipe Saipos
-
+<!--
 [![Build Status](https://travis-ci.org/nfephp-org/nfephp.svg)](https://travis-ci.org/nfephp-org/nfephp)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nfephp-org/nfephp/badges/quality-score.png)](https://scrutinizer-ci.com/g/nfephp-org/nfephp/)
 [![Code Coverage](https://scrutinizer-ci.com/g/nfephp-org/nfephp/badges/coverage.png)](https://scrutinizer-ci.com/g/nfephp-org/nfephp/)
@@ -9,85 +7,18 @@
 [![Latest Stable Version](https://poser.pugx.org/nfephp-org/nfephp/v/stable.svg)](https://packagist.org/packages/nfephp-org/nfephp)
 [![Latest Unstable Version](https://poser.pugx.org/nfephp-org/nfephp/v/unstable.svg)](https://packagist.org/packages/nfephp-org/nfephp)
 [![Total Downloads](https://poser.pugx.org/nfephp-org/nfephp/downloads)](https://packagist.org/packages/nfephp-org/nfephp)
+!-->
+
+Este é um repositório mantida pela equipe de desenvolvimento da Saipos (https://www.saipos.com.br/). Onde serão feitas correções de BUGs e implementações necessárias para o bom funcionamento da biblioteca conforme a necessidade das nossas ferramentas. Qualquer desenvolvedor que deseje contribuir, seja bem vindo!
+
+Para maiores informações do repositório original (https://github.com/nfephp-org/nfephp).
+
+# NFePHP
 
 NFePHP é uma API para gerenciamento das comunicações entre o emitente de NFe e os serviços dos SEFAZ estaduais. Inteiramente construído em PHP para rodar sob qualquer sistema operacional.
 Para começar veja [nossas páginas Wiki](https://github.com/nfephp-org/nfephp/wiki).
 
 Não deixe de se cadastrar no [grupo de discussão do NFePHP](http://groups.google.com/group/nfephp)!
-
-**Srs. neste repositório somente serão aceitos "PULL REQUESTS" relativos a BUGS e correções derivadas de mudanças promovidas pelas SEFAZ.**
-
-Não mais serão aceitas alterações, melhorias no código ou inclusões de novos recursos ou de novos serviços, todas essas melhorias deverão ser encaminhadas para o novo repositório SPED-XXX.
-
->Em breve (até meados de 2017), este repositório deixará de receber qualquer contribuição e será descontinuado, em favor dos novos repositórios !!!
->Para manter a integridade da API nessa nova versão (4.1.x-dev), estão sendo mantidos os "namespaces", as chamadas de métodos e seus parametros, que não deverão ser alterados a não ser por motivo de "força maior", como mudanças da SEFAZ que forcem essa situação.
->No uso da nova versão, atenção deve ser dedicada a nomenclatura de classes, que foi simplificada, e nos recursos como impressão que foram deslocados para outro repositório.  
-
-
-## REESTRUTURAÇÃO DE REPOSITÓRIOS
-
-**As estruturas de CTe, MDFe e outras foram removidas deste repositório e levadas a seus novos repositórios veja:**
-
-[SPED NFe](https://github.com/nfephp-org/sped-nfe) Novo repositório da classes de NFe (em fase de testes)
-
-[SPED CTe](https://github.com/nfephp-org/sped-cte) Novo repositório das classes de CTe (em desenvolvimento)
-
-[SPED MDFe](https://github.com/nfephp-org/sped-mdfe) Novo repositório das classes de MDFe (em desenvolvimento)
-
-[SPED NFSe](https://github.com/nfephp-org/sped-nfse) Novo repositório das classes de NFSe (em desenvolvimento)
-
-Os demais componentes também terão repositórios novos, mas por ora ainda permanecem neste.
-
-[SPED COMMON](https://github.com/nfephp-org/sped-common) Novo repositório das classes comuns usadas por todos ou vários projetos. 
-
-[SPED DA](https://github.com/nfephp-org/sped-da) Novo repositório das classes que geram a impressão dos documentos. 
-
-[POSPRINT](https://github.com/nfephp-org/posprint) Framework para impressão com impressoras térmicas POS (em desenvolvimento)
-
-[SPED GNRE](https://github.com/nfephp-org/sped-gnre) Repositório da classes de GNRE (versão estável)
-
-Além desses outros repositórios estão em construção ou já dispõem de bibliotecas
-
-[SPED EFD](https://github.com/nfephp-org/sped-efinanceira) Repositório da classes de Sped EFD fiscal  (em desenvolvimento)
-
-[SPED RESTFUL](https://github.com/nfephp-org/sped-restful) Aplicativo RestFul para geração de documentos Sped (em desenvolvimento)
-
-[SPED CONSOLE](https://github.com/nfephp-org/sped-console) Conjunto de recursos em linha de comando (em desenvolvimento)
-
-[SPED DOCS](https://github.com/nfephp-org/sped-docs) Conjunto da documentação dos pacotes NFePHP (ultrapassado, incompleto e parcial)
-
-[SPED EMISSOR](https://github.com/nfephp-org/sped-emissor) Aplicativo "front-end" para emissão de documentos (não iniciado)
-
-[SPED eSOCIAL](https://github.com/nfephp-org/sped-esocial) Repositório das classes para eSocial (apenas documentação)
-
-[SPED SERIALIZER](https://github.com/nfephp-org/sped-esocial) Repositorio de classes para serialização de XML (conceito)
-
-Outros projetos relacionados, mas com finalidade especifica:
-
-[SPED eFINANCEIRA](https://github.com/nfephp-org/sped-efinanceira) Repositório da classes de eFinanceira (versão estável)
-
-[SPED eSFINGE](https://github.com/nfephp-org/sped-esfinge) Framework para integração com o sistema eSfinge do TCE/SC (versão estável)
-
-# CONTRIBUINDO
-
-Este é um projeto totalmente *OpenSource*, para usa-lo e modifica-lo você não paga absolutamente nada. Porém para continuarmos a mante-lo é necessário qua alguma contribuição seja feita, seja auxiliando na codificação, na documentação ou na realização de testes e identificação de falhas e BUGs.
-
-Mas também, caso você ache que qualquer informação obtida aqui, lhe foi útil e que isso vale de algum dinheiro e está disposto a doar algo, sinta-se livre para enviar qualquer quantia através de :
-
-<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=linux%2erlm%40gmail%2ecom&lc=BR&item_name=NFePHP%20OpenSource%20API&item_number=nfephp&currency_code=BRL&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest">
-<img alt="Doar com Paypal" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif"/></a>
-[![](https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-assina.gif)](https://pag.ae/bkXPq4) 
-
-
-## IMPORTANTE:
-
-A partir desta versão o numero das versões seguirá uma sequencia própria da API e não mais irá se referir as versões de layout da NFe, CTe, etc.
-
-Nesta versão (4.0.x) apenas a NFe é funcional, para CTe, e MDFe deve ser usado a TAG 3.10-Obsoleta, pelo menos até que outros colaboradores se disponham a auxiliar na refatoração  
-
-## Versão de Desenvolvimento
-
-Versão 4.0.x-dev (observa a versão de layout 3.10 da SEFAZ)
 
 ## Versão Estável
 
@@ -98,7 +29,7 @@ Devido as constantes alterações, dos schemas, webservices e legislações, pro
 Pelo terminal vá até a raiz de seu projeto e lá execute :
 
 ```
-composer require nfephp-org/nfephp
+composer require saipos/saipos-nfephp
 ``` 
 Isso fará com que o SEU arquivo composer.json seja acrescido da dependência da API.
 A API será baixada e colocada na pasta "vendor" e o arquivo autoload.php sejá atualizado.
@@ -147,29 +78,12 @@ Para mais detalhes sobre a instalação, veja <https://github.com/nfephp-org/nfe
 
 ## Quick start
 
-Clone o repositório com `git clone --branch=develop https://github.com/nfephp-org/nfephp.git` ou [baixe a última versão estável](https://github.com/nfephp-org/nfephp/downloads).
+Clone o repositório com `git clone --branch=develop https://github.com/Saipos/saipos-nfephp.git`.
 
 ```sh
 $ composer install
 $ ./vendor/bin/phpunit
 ```
-
-## Versionamento
-
-Para fins de transparência e discernimento sobre nosso ciclo de lançamento, e procurando manter compatibilidade com versões anteriores, o número de versão da NFePHP 
-será mantida, tanto quanto possível, respeitando o padrão abaixo.
-
-As liberações serão numeradas com o seguinte formato:
-
-`<major>.<minor>.<patch>`
-
-E serão construídas com as seguintes orientações:
-
-* Quebra de compatibilidade com versões anteriores, avança o `<major>`.
-* Adição de novas funcionalidades sem quebrar compatibilidade com versões anteriores, avança o `<minor>`.
-* Correção de bugs e outras alterações, avança `<patch>`.
-
-Para mais informações, por favor visite <http://semver.org/>.
 
 ## Desenvolvimento
 
@@ -183,6 +97,7 @@ Encontrou um bug? Informe-nos aqui no GitHub!
 
 <https://github.com/nfephp-org/nfephp/issues>
 
+<!--
 ## Mantenedores (em revisão)
 
 * NFe  - `Roberto L. Machado`
@@ -195,3 +110,4 @@ Encontrou um bug? Informe-nos aqui no GitHub!
 ## Pull Request
 
 Para que seu Pull Request seja aceito ele deve estar seguindo os padrões descritos neste documento <http://www.walkeralencar.com/PHPCodeStandards.pdf>
+!-->
