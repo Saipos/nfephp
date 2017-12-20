@@ -139,11 +139,34 @@ ATENÇÃO!!! Vários endereços destes webservices ainda não foram totalmente
   <UF>
     <sigla>ES</sigla>
     <homologacao>
-      <NfeConsultaQR method="QR-CODE" operation="NfeConsultaQR" version="100"></NfeConsultaQR>
+	   <NfeAutorizacao method="nfeAutorizacaoLote" operation="NfeAutorizacao" version="3.10">https://nfce-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx</NfeAutorizacao>
+	   <NfeRetAutorizacao method="nfeRetAutorizacaoLote" operation="NfeRetAutorizacao" version="3.10">https://nfce-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx</NfeRetAutorizacao>
+       <NfeInutilizacao  method="nfeInutilizacaoNF2" operation="NfeInutilizacao2" version="3.10">https://nfce-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx</NfeInutilizacao>
+       <NfeConsultaProtocolo method="nfeConsultaNF2" operation="NfeConsulta2" version="3.10">https://nfce-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx</NfeConsultaProtocolo>
+       <NfeStatusServico method="nfeStatusServicoNF2" operation="NfeStatusServico2" version="3.10">https://nfce-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx</NfeStatusServico>
+       <RecepcaoEvento  method="nfeRecepcaoEvento" operation="RecepcaoEvento" version="1.00">https://nfce-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx</RecepcaoEvento>
+       <NfeConsultaQR method="QR-CODE" operation="NfeConsultaQR" version="100">http://homologacao.sefaz.es.gov.br/ConsultaNFCe/qrcode.aspx</NfeConsultaQR>
+       <NfeConsultaCadastro method="consultaCadastro2" operation="NfeConsultaCadastro" version="3.10"></NfeConsultaCadastro>
+       <NfeConsultaDest method="nfeConsultaNFDest" operation="NfeConsultaDest" version="3.10"></NfeConsultaDest>
+       <NfeDownloadNF method="nfeDownloadNF" operation="NfeDownloadNF" version="3.10"></NfeDownloadNF>
+       <RecepcaoEPEC method="nfeRecepcaoEvento" operation="RecepcaoEvento" version="1.00"></RecepcaoEPEC>
+       <NfeStatusEPEC method="nfeStatusServicoNF2" operation="NfeStatusServico2" version="3.10"></NfeStatusEPEC>       
     </homologacao>
     <producao>
-      <NfeConsultaQR method="QR-CODE" operation="NfeConsultaQR" version="100"></NfeConsultaQR>
+       <NfeAutorizacao method="nfeAutorizacaoLote" operation="NfeAutorizacao" version="3.10">https://nfce.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx</NfeAutorizacao>
+       <NfeRetAutorizacao method="nfeRetAutorizacaoLote" operation="NfeRetAutorizacao" version="3.10">https://nfce.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx</NfeRetAutorizacao>
+       <NfeInutilizacao  method="nfeInutilizacaoNF2" operation="NfeInutilizacao2" version="3.10">https://nfce.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx</NfeInutilizacao>
+       <NfeConsultaProtocolo method="nfeConsultaNF2" operation="NfeConsulta2" version="3.10">https://nfce.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx</NfeConsultaProtocolo>
+       <NfeStatusServico method="nfeStatusServicoNF2" operation="NfeStatusServico2" version="3.10">https://nfce.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx</NfeStatusServico>
+       <RecepcaoEvento  method="nfeRecepcaoEvento" operation="RecepcaoEvento" version="1.00">https://nfce.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx</RecepcaoEvento>
+       <NfeConsultaQR method="QR-CODE" operation="NfeConsultaQR" version="100">http://app.sefaz.es.gov.br/ConsultaNFCe/qrcode.aspx</NfeConsultaQR>
+       <NfeConsultaCadastro method="consultaCadastro2" operation="NfeConsultaCadastro" version="3.10"></NfeConsultaCadastro>
+       <NfeConsultaDest method="nfeConsultaNFDest" operation="NfeConsultaDest" version="3.10"></NfeConsultaDest>
+       <NfeDownloadNF method="nfeDownloadNF" operation="NfeDownloadNF" version="3.10"></NfeDownloadNF>
+       <RecepcaoEPEC method="nfeRecepcaoEvento" operation="RecepcaoEvento" version="1.00"></RecepcaoEPEC>
+       <NfeStatusEPEC method="nfeStatusServicoNF2" operation="NfeStatusServico2" version="3.10"></NfeStatusEPEC>
     </producao>
+  </UF>
   </UF>
   <UF>
     <sigla>GO</sigla>
