@@ -167,7 +167,6 @@ ATENÇÃO!!! Vários endereços destes webservices ainda não foram totalmente
        <NfeStatusEPEC method="nfeStatusServicoNF2" operation="NfeStatusServico2" version="3.10"></NfeStatusEPEC>
     </producao>
   </UF>
-  </UF>
   <UF>
     <sigla>GO</sigla>
     <homologacao>
