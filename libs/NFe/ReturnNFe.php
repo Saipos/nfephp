@@ -212,9 +212,14 @@ class ReturnNFe
             'prot' => array()
         );
         $tag = $dom->getNode('retEnviNFe');
-        if (empty($tag)) {
-            return $aResposta;
+
+        if (empty($tag)) {            
+            $tag = $dom->getNode('retConsReciNFe');
+            if (empty($tag)) {
+                return $aResposta;
+            }
         }
+        
         $aProt[] = self::zGetProt($dom, $tag);
         $aResposta = array(
             'bStat' => true,
